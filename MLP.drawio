@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T06:29:31.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="5cQT40pOqVXu4TqnsDGq" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T06:32:35.285Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="wj_J919LKEUJTs0Qh4i6" version="14.2.9" type="github">
   <diagram id="GPcPKYUphOVzy0ds8dnr" name="Page-1">
     <mxGraphModel dx="746" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -282,6 +282,9 @@
         </mxCell>
         <mxCell id="XiKwa4SP2fp3I_ocTYC7-101" value="&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 16px&quot;&gt;`k` 层隐藏层，&lt;br&gt;第`i`层有`n_i`个节点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="235" width="124" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XiKwa4SP2fp3I_ocTYC7-104" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;gradientColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="530" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
