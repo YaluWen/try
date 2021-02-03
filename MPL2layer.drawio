@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T00:31:14.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="L7RCf_mZqdUDc8kszxkY" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T00:34:01.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="jH29Vv1s0WPLebLjb1kG" version="14.2.9" type="github">
   <diagram id="Gv_tjTJuO-C7QSKp1yFk" name="Page-1">
     <mxGraphModel dx="1815" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qLEU6Lc94TPWklZHJOM7-67" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="60" width="480" height="310" as="geometry" />
+        </mxCell>
         <mxCell id="qLEU6Lc94TPWklZHJOM7-1" value="SNP&lt;sub&gt;1&lt;/sub&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="40" height="40" as="geometry" />
         </mxCell>
@@ -163,7 +166,7 @@
             <mxPoint x="290" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qLEU6Lc94TPWklZHJOM7-51" value="`\hat{y_1}`&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="qLEU6Lc94TPWklZHJOM7-51" value="`\hat{y}`&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="qLEU6Lc94TPWklZHJOM7-56" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0000CC;strokeWidth=1;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
@@ -183,9 +186,6 @@
         </mxCell>
         <mxCell id="qLEU6Lc94TPWklZHJOM7-63" value="&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 16px&quot;&gt;2层隐藏层，&lt;br&gt;第`i`层有`n_i`个节点，&lt;br&gt;`n_1 &amp;lt; n_2`&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="210" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qLEU6Lc94TPWklZHJOM7-67" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="60" width="480" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
