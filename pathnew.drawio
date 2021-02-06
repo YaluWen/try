@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T07:57:00.161Z" agent="5.0 (Macintosh)" etag="1EffzxeyEBUFunKsbYOA" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T08:06:42.109Z" agent="5.0 (Macintosh)" etag="9rMSoHRHlMIVpuu2vmat" version="14.2.9" type="github">
   <diagram id="Qysw3-rOo7-g8x6gWeUs" name="Page-1">
     <mxGraphModel dx="868" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,35 @@
         <mxCell id="IYrFxxv-hgy3-oWXNiMI-8" value="深度迁移学习模型的构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-12" value="隐含层的结构和参数设置与优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-12" value="参数设置与优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-13" value="模型准确性的评估指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-14" value="变量筛选准确性的 评估指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-17" value="根据不同疾病模型设置隐含层结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-18" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;通过模拟数据以及实际数据验证模型的实际预测能力&lt;/span&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: #0070c1&quot;&gt;&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-19" value="&lt;div&gt;模拟研究：在不同疾病模型、噪声信号比、因变量型式&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-23" value="变量筛选准确性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-24" value="模型预测准确性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-25" value="&lt;div&gt;真实数据分析&lt;/div&gt;： UKBiobank 和ADNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-28" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;建立遗传风险预测的完整模式&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="600" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
