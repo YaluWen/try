@@ -1,95 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T08:07:25.747Z" agent="5.0 (Macintosh)" etag="9i8URkeZtd82REhP0CHA" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T08:36:05.952Z" agent="5.0 (Macintosh)" etag="-HoHb1Yi-2iPVAIVYwME" version="14.2.9" type="github">
   <diagram id="Qysw3-rOo7-g8x6gWeUs" name="Page-1">
-    <mxGraphModel dx="868" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-1" target="IYrFxxv-hgy3-oWXNiMI-3">
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-64" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="40" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;kaiti&amp;#34; ; color: rgb(0 , 112 , 193)&quot; lang=&quot;ZH-CN&quot;&gt;建立适用于全基因组数据的变量筛选方法&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry x="10" y="10" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-1" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;多层感知机&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;的构建&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry x="10" y="70" width="128" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;参数设置与优化&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry x="180.66666666666666" y="70" width="128" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-64" source="IYrFxxv-hgy3-oWXNiMI-1" target="IYrFxxv-hgy3-oWXNiMI-3">
+          <mxGeometry x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-5" value="&lt;font style=&quot;font-size: 20px&quot;&gt;变量重要性评分的估算和理论分布推导&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry x="341" y="70" width="138" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-64" source="IYrFxxv-hgy3-oWXNiMI-3" target="IYrFxxv-hgy3-oWXNiMI-5">
+          <mxGeometry x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-14" value="&lt;font style=&quot;font-size: 20px&quot;&gt;变量筛选准确性的评估指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-64">
+          <mxGeometry x="522" y="70" width="128" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-64" source="IYrFxxv-hgy3-oWXNiMI-5" target="IYrFxxv-hgy3-oWXNiMI-14">
+          <mxGeometry x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="260" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;kaiti&amp;#34; ; color: rgb(0 , 112 , 193)&quot; lang=&quot;ZH-CN&quot;&gt;建立将变量筛选和风险预测有机融合的深度迁移学习模型&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry x="10" y="10" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-66" source="IYrFxxv-hgy3-oWXNiMI-7" target="IYrFxxv-hgy3-oWXNiMI-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-1" value="多层感知机的构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-8" value="&lt;font style=&quot;font-size: 20px&quot;&gt;深度迁移学习模型的构建&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry x="10" y="70" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;kaiti&amp;#34; ; color: rgb(0 , 112 , 193)&quot; lang=&quot;ZH-CN&quot;&gt;建立适用于全基因组数据的变量筛选方法&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="520" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-12" value="&lt;font style=&quot;font-size: 20px&quot;&gt;参数设置与优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry x="340" y="70" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-3" target="IYrFxxv-hgy3-oWXNiMI-5">
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;模型准确性的评估指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry x="520" y="70" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-66" source="IYrFxxv-hgy3-oWXNiMI-12" target="IYrFxxv-hgy3-oWXNiMI-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-3" value="参数设置和优化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-66" source="IYrFxxv-hgy3-oWXNiMI-12" target="IYrFxxv-hgy3-oWXNiMI-13">
+          <mxGeometry x="50" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-5" value="变量重要性评分统计量的估算和分布推到" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-66" source="IYrFxxv-hgy3-oWXNiMI-17" target="IYrFxxv-hgy3-oWXNiMI-12">
+          <mxGeometry x="50" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-7" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;kaiti&amp;#34; ; color: rgb(0 , 112 , 193)&quot; lang=&quot;ZH-CN&quot;&gt;建立将变量筛选和风险预测有机融合的深度迁移学习模型&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="520" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-17" value="&lt;font style=&quot;font-size: 20px&quot;&gt;根据不同疾病模型设置隐含层结构&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-66">
+          <mxGeometry x="180" y="70" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-8" value="深度迁移学习模型的构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-66" source="IYrFxxv-hgy3-oWXNiMI-8" target="IYrFxxv-hgy3-oWXNiMI-17">
+          <mxGeometry x="50" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-12" value="参数设置与优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-13" value="模型准确性的评估指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-14" value="变量筛选准确性的 评估指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-17" value="根据不同疾病模型设置隐含层结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-18" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;通过模拟数据以及实际数据验证模型的实际预测能力&lt;/span&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: #0070c1&quot;&gt;&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="520" width="600" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-19" value="&lt;div&gt;模拟研究：在不同疾病模型、噪声信号比、因变量型式&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-23" value="变量筛选准确性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-24" value="模型预测准确性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-25" value="&lt;div&gt;真实数据分析&lt;/div&gt;： UKBiobank 和ADNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-28" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;建立遗传风险预测的完整模式&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="780" width="600" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-38" value="预测因子重要性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="880" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-39" value="预测模型临床实用性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="880" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-40" value="预测模型的优化决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="960" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-41" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-38">
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-67" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-63" target="IYrFxxv-hgy3-oWXNiMI-65">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-200" y="920" as="sourcePoint" />
-            <mxPoint x="300" y="960" as="targetPoint" />
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-42" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-39">
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-70" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="480" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-18" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;通过模拟数据以及实际数据验证模型的实际预测能力&lt;/span&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: #0070c1&quot;&gt;&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry x="10" y="10" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-19" value="&lt;div style=&quot;font-size: 19px&quot;&gt;模拟研究：疾病模型、噪声信号比、因变量&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry x="10" y="70" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-23" value="&lt;font style=&quot;font-size: 20px&quot;&gt;变量筛选准确性评估&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry x="380" y="70" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-24" value="&lt;font style=&quot;font-size: 20px&quot;&gt;模型预测准确性评估&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry x="530" y="70" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-25" value="&lt;div style=&quot;font-size: 19px&quot;&gt;&lt;font style=&quot;font-size: 19px&quot; face=&quot;Times New Roman&quot;&gt;真实数据分析&lt;/font&gt;&lt;font style=&quot;font-size: 19px&quot; face=&quot;Times New Roman&quot;&gt;（UKBiobank 和ADNI）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-70">
+          <mxGeometry x="10" y="130" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-58" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-70" source="IYrFxxv-hgy3-oWXNiMI-19" target="IYrFxxv-hgy3-oWXNiMI-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-20.5" y="920" as="sourcePoint" />
-            <mxPoint x="460" y="960" as="targetPoint" />
+            <mxPoint x="300" y="-10" as="sourcePoint" />
+            <mxPoint x="350" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-43" value="高危人群的筛查和精准医疗方案的制定" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1040" width="280" height="40" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-59" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-70" source="IYrFxxv-hgy3-oWXNiMI-25" target="IYrFxxv-hgy3-oWXNiMI-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-10" as="sourcePoint" />
+            <mxPoint x="350" y="-60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-40" target="IYrFxxv-hgy3-oWXNiMI-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-62" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IYrFxxv-hgy3-oWXNiMI-70" source="IYrFxxv-hgy3-oWXNiMI-23" target="IYrFxxv-hgy3-oWXNiMI-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-10" as="sourcePoint" />
+            <mxPoint x="350" y="-60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-45" value="为新方法，新模式的临床应用可行性提供依据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1120" width="280" height="40" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-71" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="360" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="IYrFxxv-hgy3-oWXNiMI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-43" target="IYrFxxv-hgy3-oWXNiMI-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="700" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-28" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;建立遗传风险预测的完整模式&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="10" y="10" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-38" value="&lt;font style=&quot;font-size: 20px&quot;&gt;预测因子重要性评估&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="10" y="70" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-39" value="&lt;font style=&quot;font-size: 20px&quot;&gt;预测模型临床实用性评估&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="10" y="120" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-40" value="&lt;font style=&quot;font-size: 20px&quot;&gt;预测模型的优化决策&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="231" y="70" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-43" value="&lt;font style=&quot;font-size: 20px&quot;&gt;高危人群的筛查和精准医疗方案的制定&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="375" y="70" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-45" value="&lt;font style=&quot;font-size: 20px&quot;&gt;新模式的临床应用可行性&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="IYrFxxv-hgy3-oWXNiMI-73">
+          <mxGeometry x="530" y="70" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-74" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#cce5ff;strokeColor=#36393d;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="660" as="sourcePoint" />
+            <mxPoint x="360" y="700" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
