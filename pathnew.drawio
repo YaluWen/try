@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T08:06:42.109Z" agent="5.0 (Macintosh)" etag="9rMSoHRHlMIVpuu2vmat" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T08:07:25.747Z" agent="5.0 (Macintosh)" etag="9i8URkeZtd82REhP0CHA" version="14.2.9" type="github">
   <diagram id="Qysw3-rOo7-g8x6gWeUs" name="Page-1">
     <mxGraphModel dx="868" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,6 +57,39 @@
         </mxCell>
         <mxCell id="IYrFxxv-hgy3-oWXNiMI-28" value="&lt;b&gt;&lt;span style=&quot;font-size: 14.0pt ; font-family: &amp;#34;kaiti&amp;#34; ; color: #0070c1&quot; lang=&quot;ZH-CN&quot;&gt;建立遗传风险预测的完整模式&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="780" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-38" value="预测因子重要性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-39" value="预测模型临床实用性评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-40" value="预测模型的优化决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-41" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="920" as="sourcePoint" />
+            <mxPoint x="300" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-42" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20.5" y="920" as="sourcePoint" />
+            <mxPoint x="460" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-43" value="高危人群的筛查和精准医疗方案的制定" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1040" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-40" target="IYrFxxv-hgy3-oWXNiMI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-45" value="为新方法，新模式的临床应用可行性提供依据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1120" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IYrFxxv-hgy3-oWXNiMI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IYrFxxv-hgy3-oWXNiMI-43" target="IYrFxxv-hgy3-oWXNiMI-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
